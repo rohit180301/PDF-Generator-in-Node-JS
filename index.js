@@ -102,7 +102,7 @@ app.post('/pdf',(req,res) => {
         doc.addFileToVFS("Montserrat-Bold.ttf", montserrat_bold);
         doc.addFont("Montserrat-Bold.ttf", "Montserrat_Bold", "normal");
         doc.setFont("Montserrat_Bold");
-        doc.text(78.5, 202.1, CNum);
+        doc.text(78.5, 201.9, CNum);
 
 
         doc.save('test.pdf');
