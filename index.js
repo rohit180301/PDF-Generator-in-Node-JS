@@ -106,7 +106,7 @@ app.post('/pdf',(req,res) => {
 
 
         doc.save('test.pdf');
-        // sendRegistrationEmail(req.hostname, cemail,name);
+        sendRegistrationEmail(req.hostname, cemail,name);
         res.send("The Email of your certificate has been sent succesfully!")
 });   
 
